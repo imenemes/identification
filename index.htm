@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Identification</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/mes-styles.css">
+</head>
+
+<body>
+
+<div class="conteneur coulFond">
+<h1>Formulaire d'identification securise</h1>
+</div>
+<div class="conteneur">
+        <img src="img/logo.png" alt="logo" style="width:10%" class="cercle margeHaut">
+      </div>
+
+      <form class="conteneur" action="index.htm">
+        <div class="section">
+          <label><b>Identifiant</b></label>
+          <input class="zoneSaisie margeBas" placeholder="Taper votre identifiant" type="text" maxlength="20" id="nomUtil" required>
+          <label><b>Mot de passe</b></label>
+          <input class="zoneSaisie" placeholder="Taper votre mot de passe" type= "password" minlength="8" id="mdp" required>
+		  <button class="bouton bloc bleu section decalage" onclick= "login();" type="submit">Valider</button>
+		  <button type="reset" class="bouton rouge">Reset</button>
+		   <button type="submit" onclick= "registerUser()"  class="bouton rouge">Ajout de compte</button>
+        </div>
+      </form>
+
+<script src="js/main.js"></script>
+    </div>
+  </div>
+</div>
+
+</body>
+</html> 
+
+
+
